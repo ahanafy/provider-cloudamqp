@@ -26,7 +26,7 @@ import (
 	"github.com/crossplane/crossplane-runtime/pkg/reconciler/providerconfig"
 	"github.com/crossplane/crossplane-runtime/pkg/resource"
 
-	"github.com/crossplane/provider-cloudamqp/apis/v1alpha1"
+	"github.com/ahanafy/provider-cloudamqp/apis/v1alpha1"
 )
 
 // Setup adds a controller that reconciles ProviderConfigs by accounting for

@@ -32,13 +32,13 @@ import (
 	"github.com/crossplane/crossplane-runtime/pkg/reconciler/managed"
 	"github.com/crossplane/crossplane-runtime/pkg/resource"
 
-	"github.com/crossplane/provider-cloudamqp/apis/customer/v1alpha1"
-	apisv1alpha1 "github.com/crossplane/provider-cloudamqp/apis/v1alpha1"
-	"github.com/crossplane/provider-cloudamqp/internal/controller/features"
+	"github.com/ahanafy/provider-cloudamqp/apis/customer/v1alpha1"
+	apisv1alpha1 "github.com/ahanafy/provider-cloudamqp/apis/v1alpha1"
+	"github.com/ahanafy/provider-cloudamqp/internal/controller/features"
 )
 
 const (
-	errNotInstance    = "managed resource is not a Instance custom resource"
+	errNotInstance  = "managed resource is not a Instance custom resource"
 	errTrackPCUsage = "cannot track ProviderConfig usage"
 	errGetPC        = "cannot get ProviderConfig"
 	errGetCreds     = "cannot get credentials"

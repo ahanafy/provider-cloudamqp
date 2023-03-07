@@ -20,7 +20,7 @@ package apis
 import (
 	"k8s.io/apimachinery/pkg/runtime"
 
-	cloudamqpv1alpha1 "github.com/crossplane/provider-cloudamqp/apis/v1alpha1"
+	cloudamqpv1alpha1 "github.com/ahanafy/provider-cloudamqp/apis/v1alpha1"
 )
 
 func init() {

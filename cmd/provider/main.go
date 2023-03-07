@@ -36,10 +36,10 @@ import (
 	"github.com/crossplane/crossplane-runtime/pkg/ratelimiter"
 	"github.com/crossplane/crossplane-runtime/pkg/resource"
 
-	"github.com/crossplane/provider-cloudamqp/apis"
-	"github.com/crossplane/provider-cloudamqp/apis/v1alpha1"
-	cloudamqp "github.com/crossplane/provider-cloudamqp/internal/controller"
-	"github.com/crossplane/provider-cloudamqp/internal/controller/features"
+	"github.com/ahanafy/provider-cloudamqp/apis"
+	"github.com/ahanafy/provider-cloudamqp/apis/v1alpha1"
+	cloudamqp "github.com/ahanafy/provider-cloudamqp/internal/controller"
+	"github.com/ahanafy/provider-cloudamqp/internal/controller/features"
 )
 
 func main() {

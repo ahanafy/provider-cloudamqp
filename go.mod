@@ -1,4 +1,4 @@
-module github.com/crossplane/provider-cloudamqp
+module github.com/ahanafy/provider-cloudamqp
 
 go 1.19
 
