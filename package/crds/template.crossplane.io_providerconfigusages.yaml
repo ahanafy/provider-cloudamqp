@@ -5,14 +5,14 @@ metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.10.0
   creationTimestamp: null
-  name: providerconfigusages.template.crossplane.io
+  name: providerconfigusages.cloudamqp.crossplane.io
 spec:
-  group: template.crossplane.io
+  group: cloudamqp.crossplane.io
   names:
     categories:
     - crossplane
     - provider
-    - template
+    - cloudamqp
     kind: ProviderConfigUsage
     listKind: ProviderConfigUsageList
     plural: providerconfigusages
